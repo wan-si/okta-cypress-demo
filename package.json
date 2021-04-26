@@ -1,0 +1,24 @@
+{
+  "name": "salesfunneldemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chrome-ext-downloader": "^1.0.4",
+    "cypress": "^5.1.0",
+    "cypress-xpath": "^1.4.0"
+  },
+  "dependencies": {
+    "@okta/okta-auth-js": "^4.0.0"
+  }
+}
